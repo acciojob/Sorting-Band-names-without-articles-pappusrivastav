@@ -15,7 +15,7 @@ function sortBandNames(bandNames) {
 let sortedBandNames = sortBandNames(bandNames);
 
 // Displaying the sorted band names
-let ul = document.getElementById('band');
+let ul = document.getElementById('bands');
 sortedBandNames.forEach(name => {
     let li = document.createElement('li');
     li.appendChild(document.createTextNode(name));
